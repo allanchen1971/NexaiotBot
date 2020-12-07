@@ -1,0 +1,44 @@
+[
+  {
+    "ButtonName": "Control",
+	"ButtonCommand": "Page1",
+    "PageCommand": [
+      {
+        "DMCommand": "PING",
+        "Command": "",
+        "displayName": "Running Check"
+      },
+      {
+        "DMCommand": "HARDWARERESET",
+        "Command": "",
+        "displayName": "Hardware Reset"
+      }
+    ]
+  },
+  {
+    "ButtonName": "CNCDemo",
+	"ButtonCommand": "Page2",
+    "PageCommand": [
+      {
+        "DMCommand": "IPCCOMMAND",
+        "Command": "DeviceInfo",
+        "displayName": "Device Info"
+      },
+      {
+        "DMCommand": "IPCCOMMAND",
+        "Command": "ChangeMenu Pen",
+        "displayName": "Recipe(Pen)"
+      },
+      {
+        "DMCommand": "IPCCOMMAND",
+        "Command": "ChangeMenu Cardbox",
+        "displayName": "Recipe(CardBox)"
+      },
+      {
+        "DMCommand": "IPCCOMMAND",
+        "Command": "GetSysLogs",
+        "displayName": "System Logs"
+      }
+    ]
+  }
+]

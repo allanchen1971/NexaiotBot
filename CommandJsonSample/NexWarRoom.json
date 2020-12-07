@@ -1,0 +1,69 @@
+[
+  {
+    "ButtonName": "Control",
+	"ButtonCommand": "Page1",
+    "PageCommand": [
+      {
+        "DMCommand": "PING",
+        "Command": "",
+        "displayName": "Running Check"
+      },
+      {
+        "DMCommand": "HARDWARERESET",
+        "Command": "",
+        "displayName": "Hardware Reset"
+      }
+    ]
+  },
+  {
+    "ButtonName": "NexWarRoom",
+	"ButtonCommand": "Page2",
+    "PageCommand": [
+      {
+        "DMCommand": "IPCCOMMAND",
+        "Command": "ShowERP",
+        "displayName": "ERP"
+      },
+      {
+        "DMCommand": "IPCCOMMAND",
+        "Command": "ShowiPDM",
+        "displayName": "iPDM"
+      },
+      {
+        "DMCommand": "IPCCOMMAND",
+        "Command": "ShoweSAF",
+        "displayName": "eSAF"
+      },
+      {
+        "DMCommand": "IPCCOMMAND",
+        "Command": "ShownCare",
+        "displayName": "nCare"
+      },
+      {
+        "DMCommand": "IPCCOMMAND",
+        "Command": "ShowFacility",
+        "displayName": "Facility"
+      },
+      {
+        "DMCommand": "IPCCOMMAND",
+        "Command": "ShowProduction",
+        "displayName": "Production"
+      },
+      {
+        "DMCommand": "IPCCOMMAND",
+        "Command": "ShowPredictive",
+        "displayName": "Predictive"
+      },
+      {
+        "DMCommand": "IPCCOMMAND",
+        "Command": "ShowEnergy",
+        "displayName": "Energy"
+      },
+      {
+        "DMCommand": "IPCCOMMAND",
+        "Command": "ShowNexWMS",
+        "displayName": "NexWMS"
+      }
+    ]
+  }
+]

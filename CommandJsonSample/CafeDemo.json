@@ -1,0 +1,49 @@
+[
+  {
+    "ButtonName": "Control",
+	"ButtonCommand": "Page1",
+    "PageCommand": [
+      {
+        "DMCommand": "PING",
+        "Command": "",
+        "displayName": "Running Check"
+      },
+      {
+        "DMCommand": "HARDWARERESET",
+        "Command": "",
+        "displayName": "Hardware Reset"
+      }
+    ]
+  },
+  {
+    "ButtonName": "NexCafe",
+	"ButtonCommand": "Page2",
+    "PageCommand": [
+      {
+        "DMCommand": "IPCCOMMAND",
+        "Command": "DeviceInfo",
+        "displayName": "Device Info"
+      },
+      {
+        "DMCommand": "IPCCOMMAND",
+        "Command": "AddNewRecipe",
+        "displayName": "Add new Recipe"
+      },
+      {
+        "DMCommand": "IPCCOMMAND",
+        "Command": "RecoverRecipe",
+        "displayName": "Recover Recipe"
+      },
+      {
+        "DMCommand": "IPCCOMMAND",
+        "Command": "Statistics",
+        "displayName": "Sales Statistics"
+      },
+      {
+        "DMCommand": "IPCCOMMAND",
+        "Command": "GetSysLogs",
+        "displayName": "System Logs"
+      }
+    ]
+  }
+]

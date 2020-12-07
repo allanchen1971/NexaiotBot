@@ -1,0 +1,100 @@
+[
+  {
+    "ButtonName": "Control",
+	"ButtonCommand": "Page1",
+    "PageCommand": [
+      {
+        "DMCommand": "PING",
+        "Command": "",
+        "displayName": "Running Check"
+      },
+      {
+        "DMCommand": "HARDWARERESET",
+        "Command": "",
+        "displayName": "Hardware Reset"
+      }
+    ]
+  },
+  {
+    "ButtonName": "NexPLCControl",
+	"ButtonCommand": "Page2",
+    "PageCommand": [
+      {
+        "DMCommand": "IPCCOMMAND",
+        "Command": "SetPLC:5",
+        "displayName": "Set Value:5"
+      },
+      {
+        "DMCommand": "IPCCOMMAND",
+        "Command": "SetUploadBlob",
+        "displayName": "Upload Blob"
+      },
+      {
+        "DMCommand": "IPCCOMMAND",
+        "Command": "SetTurnOn:0",
+        "displayName": "Turnon Moto 0"
+      },
+      {
+        "DMCommand": "IPCCOMMAND",
+        "Command": "SetTurnOff:0",
+        "displayName": "TurnOff Moto 0"
+      },
+      {
+        "DMCommand": "IPCCOMMAND",
+        "Command": "SetTurnOn:1",
+        "displayName": "Turnon Moto 1"
+      },
+      {
+        "DMCommand": "IPCCOMMAND",
+        "Command": "SetTurnOff:1",
+        "displayName": "TurnOff Moto 1"
+      },
+      {
+        "DMCommand": "IPCCOMMAND",
+        "Command": "SetTurnOn:2",
+        "displayName": "Turnon Moto 2"
+      },
+      {
+        "DMCommand": "IPCCOMMAND",
+        "Command": "SetTurnOff:2",
+        "displayName": "TurnOff Moto 2"
+      }
+    ]
+  },
+  {
+    "ButtonName": "NexPLCStatus",
+	"ButtonCommand": "Page3",
+    "PageCommand": [
+      {
+        "DMCommand": "IPCCOMMAND",
+        "Command": "GetVoltage",
+        "displayName": "Get Voltage"
+      },
+      {
+        "DMCommand": "IPCCOMMAND",
+        "Command": "GetWaterLevel",
+        "displayName": "Get WaterLevel"
+      },	  
+      {
+        "DMCommand": "IPCCOMMAND",
+        "Command": "GetHumidity",
+        "displayName": "Get Humidity"
+      },
+      {
+        "DMCommand": "IPCCOMMAND",
+        "Command": "GetSIN",
+        "displayName": "Get Sin Wave"
+      },
+      {
+        "DMCommand": "IPCCOMMAND",
+        "Command": "GetPumpStatus",
+        "displayName": "Get Pump Status"
+      },
+      {
+        "DMCommand": "IPCCOMMAND",
+        "Command": "GetPLCValue",
+        "displayName": "Get PLC Value"
+      }	  
+    ]
+  }
+]
